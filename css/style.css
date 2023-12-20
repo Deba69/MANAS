@@ -85,7 +85,7 @@ body{
 	background: #454545;
 }
 .header-top-nav{
-	background: url(../images/top-nav-bg.png) repeat-x;
+	background-image: url(../images/top-nav-bg.png) repeat-x;
 }
 .phone:before{
 	content: url(../images/phone.png);
@@ -1072,6 +1072,14 @@ body{
 	.projects-bottom-paination {
 		padding:30px 0;
 	}
+}
+@keyframes change{
+	0%
+	{
+		 
+	}
+
+	
 }
 
 
