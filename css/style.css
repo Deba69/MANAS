@@ -1073,13 +1073,38 @@ body{
 		padding:30px 0;
 	}
 }
-@keyframes change{
+.image-slider
+{
+	animation: slider 20s infinite alternate;
+}
+@keyframes change
+{
 	0%
 	{
-		 
+		background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fin%2Fkanha-paying-guest-house.html&psig=AOvVaw2hmXTEvs9OmYU3bPL7Eyfh&ust=1703224135282000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKiYst-gn4MDFQAAAAAdAAAAABAD);
+		background-size: cover;
+	}
+	20%
+	{
+		background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.indiamart.com%2Fproddetail%2Fpaying-guest-houses-interior-desing-24263690833.html&psig=AOvVaw2hmXTEvs9OmYU3bPL7Eyfh&ust=1703224135282000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKiYst-gn4MDFQAAAAAdAAAAABAI);
+		background-size: cover;
+	}
+	40%
+	{
+		background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fin%2Fanukampa-paying-guest-house-agra.html&psig=AOvVaw2hmXTEvs9OmYU3bPL7Eyfh&ust=1703224135282000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKiYst-gn4MDFQAAAAAdAAAAABAR);
+		background-size: cover;
+	}
+	60%
+	{
+		background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fpaying-guest--584764332842852373%2F&psig=AOvVaw2hmXTEvs9OmYU3bPL7Eyfh&ust=1703224135282000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKiYst-gn4MDFQAAAAAdAAAAABAa);
+		background-size: cover;
+	}
+	80%
+	{
+		background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fin%2Findra-paying-guest-house-varanasi1.html&psig=AOvVaw2hmXTEvs9OmYU3bPL7Eyfh&ust=1703224135282000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKiYst-gn4MDFQAAAAAdAAAAABA1);
+		background-size: cover;
 	}
 
-	
 }
 
 
